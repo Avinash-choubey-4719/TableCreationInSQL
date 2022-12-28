@@ -1,0 +1,8 @@
+create table student(
+    id int primary key,
+    name varchar2(20),
+    age int,
+    dob varchar2(20)
+);
+
+desc student;
